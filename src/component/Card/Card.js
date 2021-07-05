@@ -3,7 +3,7 @@ import React from 'react';
 const Card = (props) => {
     const card = props.card
     const total = card.reduce( (total, prd) => total + prd.price , 0 )
-    console.log(total);
+    // console.log(total);
     return (
         <div>
             {
